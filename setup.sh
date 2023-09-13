@@ -15,3 +15,5 @@ sudo apt install ros-humble-ros-base
 source /opt/ros/humble/setup.bash
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 printenv | grep -i ROS
+source /opt/ros/humble/setup.bash
+ros2 run demo_nodes_cpp talker & ros2 run demo_nodes_py listener && fg
