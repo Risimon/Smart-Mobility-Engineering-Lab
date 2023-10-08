@@ -9,6 +9,7 @@ setup.py
 ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
 ../../build/py_srvcli/py_srvcli.egg-info/zip-safe
 py_srvcli/__init__.py
+py_srvcli/client_member_function.py
 py_srvcli/service_member_function.py
 resource/py_srvcli
 test/test_copyright.py

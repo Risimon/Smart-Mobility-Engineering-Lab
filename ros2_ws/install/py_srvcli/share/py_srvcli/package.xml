@@ -3,13 +3,15 @@
 <package format="3">
   <name>py_srvcli</name>
   <version>0.0.0</version>
-  <description>Pythoon client server turorial</description>
-  <maintainer email="risimon@mail.ru">zheka</maintainer>
+  <description>Python client server tutorial</description>
+  <maintainer email="risimin@email.com">Yevgeniy</maintainer>
   <license>Apache License 2.0</license>
 
   <depend>rclpy</depend>
   <depend>example_interfaces</depend>
-
+  
+  <exec_depend>tutorial_interfaces</exec_depend>
+  
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
