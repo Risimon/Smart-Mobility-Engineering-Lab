@@ -24,4 +24,3 @@ gnome-terminal -- bash -c "cd ~/Smart-Mobility-Engineering-Lab/ros2_ws; source i
 nano /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_srvcli/py_srvcli/service_member_function.py
 nano /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_srvcli/py_srvcli/client_member_function.py
 nano /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_srvcli/package.xml
-
