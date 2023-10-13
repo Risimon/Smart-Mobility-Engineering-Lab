@@ -36,7 +36,7 @@ This script will execute shell commands in terminal to [install ROS2 Humble Hawk
 Execution of shell scripts one by one in weeks folders order.
 
 ```bash
-.//~/Smart-Mobility-Engineering-Lab/scripts/week4/turtlesim.sh
+./~/Smart-Mobility-Engineering-Lab/scripts/week4/turtlesim.sh
 ```
 
 ## Detailed explanation of each command can be found in each shell file.
