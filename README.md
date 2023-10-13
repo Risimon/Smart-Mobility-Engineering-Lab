@@ -14,6 +14,8 @@ Smart Mobility Engineering Lab is a practice repository based on [ROS2 Humble Ha
 
 ## Installation
 
+- Open Terminal
+
 - Moving into home directory.
 
 ```bash
