@@ -16,19 +16,19 @@ Smart Mobility Engineering Lab is a practice repository based on [ROS2 Humble Ha
 
 - Open Terminal
 
-- Moving into home directory.
+- Move into home directory.
 
 ```bash
 cd ~/
 ```
 
-- Cloning this repository into home directory.
+- Clone this repository into home directory.
 
 ```bash
 git clone https://github.com/Risimon/Smart-Mobility-Engineering-Lab
 ```
 
-- Execution of setup.sh shell file located in ~/Smart-Mobility-Engineering-Lab/scripts/week3 directory path.
+- Execute setup.sh shell file located in ~/Smart-Mobility-Engineering-Lab/scripts/week3 directory path.
 
 ```bash
 ./~/Smart-Mobility-Engineering-Lab/scripts/week3/setup.sh
