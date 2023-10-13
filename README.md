@@ -38,6 +38,16 @@ Execution of shell scripts one by one in weeks folders order.
 ```bash
 ./~/Smart-Mobility-Engineering-Lab/scripts/week4/turtlesim.sh
 ```
+```bash
+./~/Smart-Mobility-Engineering-Lab/scripts/week4/nodes.sh
+```
+```bash
+./~/Smart-Mobility-Engineering-Lab/scripts/week4/topics.sh
+```
+```bash
+./~/Smart-Mobility-Engineering-Lab/scripts/week4/services.sh
+```
+etc ...
 
 ## Detailed explanation of each command can be found in each shell file.
 
