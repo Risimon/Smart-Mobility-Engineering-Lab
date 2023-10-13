@@ -1,6 +1,6 @@
 # Smart Mobility Engineering Lab
 
-Smart Mobility Engineering Lab is a practice repository based on [ROS2 Humble Hawksbill tutorials](https://docs.ros.org/en/humble/Tutorials.html) collection of step-by-step instructions meant to steadily build skills in ROS 2.
+![alt text](https://picx.zhimg.com/v2-6274692e8be2ca77432f683a07a07487_720w.jpg?source=172ae18b)Smart Mobility Engineering Lab is a practice repository based on [ROS2 Humble Hawksbill tutorials](https://docs.ros.org/en/humble/Tutorials.html) collection of step-by-step instructions meant to steadily build skills in ROS 2.
 
 ## Requirements
 
