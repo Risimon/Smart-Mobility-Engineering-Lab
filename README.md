@@ -89,7 +89,6 @@ source /opt/ros/humble/setup.bash #Sourcing the setup script
 #Try some examples
 #Talker-listener
 #If you installed ros-humble-desktop above you can try some examples.
-source /opt/ros/humble/setup.bash
 gnome-terminal -- bash -c "source /opt/ros/humble/setup.bash; ros2 run demo_nodes_cpp talker; exec bash" #In one terminal, source the setup file and then run a C++ talker 
 gnome-terminal -- bash -c "source /opt/ros/humble/setup.bash; ros2 run demo_nodes_py listener; exec bash" #In another terminal source the setup file and then run a Python listener:
 
