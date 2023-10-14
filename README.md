@@ -54,6 +54,10 @@ Execution of shell scripts one by one in weeks folders order.
 ```
 etc ...
 
+## Demo
+
+https://drive.google.com/file/d/1mJiLdmVVYeBmvFls6Boi38U0BZ_R2C-X/view?usp=sharing
+
 ## Detailed explanation of each command can be found in each shell file.
 
 Contents of ~/Smart-Mobility-Engineering-Lab/scripts/week3/setup.sh:
