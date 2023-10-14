@@ -83,15 +83,33 @@ gnome-terminal -- bash -c "cd ~/Smart-Mobility-Engineering-Lab/ros2_ws; source i
 #With a few modifications to the publisher/subscriber package created in a previous tutorial (C++ or Python), you can see Num.msg in action. Since you’ll be changing the standard string msg to a numerical one, the output will be slightly different.
 #Publisher
 nano /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_pubsub/py_pubsub/publisher_member_function.py
+#Subscriber
 nano /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_pubsub/py_pubsub/subscriber_member_function.py
-
 #package.xml
 #Add the following line:
 nano /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_pubsub/package.xml
+#<exec_depend>tutorial_interfaces</exec_depend>
+
+#After making the above edits and saving all the changes, build the package:
 colcon build --packages-select py_pubsub
+#Then open two new terminals, source ros2_ws in each, and run:
 gnome-terminal -- bash -c "cd ~/Smart-Mobility-Engineering-Lab/ros2_ws; source install/local_setup.bash; ros2 run py_pubsub talker; exec bash"
 gnome-terminal -- bash -c "cd ~/Smart-Mobility-Engineering-Lab/ros2_ws; source install/local_setup.bash; ros2 run py_pubsub listener; exec bash"
 
+
+#7.2 Testing AddThreeInts.srv with service/client
+#With a few modifications to the service/client package created in a previous tutorial (C++ or Python), you can see AddThreeInts.srv in action. Since you’ll be changing the original two integer request srv to a three integer request srv, the output will be slightly different.
+#Service
 nano /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_srvcli/py_srvcli/service_member_function.py
+#Client
 nano /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_srvcli/py_srvcli/client_member_function.py
+#package.xml
+#Add the following line:
 nano /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_srvcli/package.xml
+#<exec_depend>tutorial_interfaces</exec_depend>
+
+#After making the above edits and saving all the changes, build the package:
+colcon build --packages-select py_pubsub
+#Then open two new terminals, source ros2_ws in each, and run:
+gnome-terminal -- bash -c "cd ~/Smart-Mobility-Engineering-Lab/ros2_ws; source install/local_setup.bash; ros2 run py_srvcli service; exec bash"
+gnome-terminal -- bash -c "cd ~/Smart-Mobility-Engineering-Lab/ros2_ws; source install/local_setup.bash; ros2 run py_srvcli client 2 3 1; exec bash"
