@@ -116,7 +116,7 @@ printenv | grep -i ROS
 ```
 
 ## Bringup TurtleBot3
-![Bringup](Snapshots/Turtlebot3 SLAM/Screenshot 2023-11-20 at 23.43.41.png)
+![Bringup](https://github.com/Risimon/Smart-Mobility-Engineering-Lab/blob/d3ea9827cdf2121f8cd3a9628ed4cdaa0d1c46cf/Snapshots/Turtlebot3%20SLAM/Screenshot%202023-11-20%20at%2023.43.41.png)
 
 ## License
 
